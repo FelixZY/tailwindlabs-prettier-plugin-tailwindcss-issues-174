@@ -1,0 +1,16 @@
+{
+  "name": "ppt-174-repro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "prettier -w . && prettier -c src/b"
+  },
+  "dependencies": {
+    "daisyui": "^2.51.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
